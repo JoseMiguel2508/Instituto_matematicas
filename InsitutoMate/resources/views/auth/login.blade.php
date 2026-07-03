@@ -17,7 +17,7 @@
     <div class="auth-wrapper">
         <div class="auth-card">
             <div class="auth-logo" style="text-align: center; margin-bottom: 2rem;">
-                <img src="{{ asset('img/logo.jpg') }}" alt="MateFácil Logo" style="max-width: 200px; mix-blend-mode: multiply;">
+                <img src="{{ asset('img/logo.jpg') }}" alt="MateFácil Logo" style="max-width: 200px; border-radius: 12px; background: white; padding: 10px;">
                 <h2 style="display: none;">MATEFÁCIL</h2>
                 <p style="display: none;">Instituto de Matemáticas</p>
             </div>

@@ -48,7 +48,7 @@
     <div class="printable-bill">
         <div class="printable-bill-header">
             <div class="printable-bill-logo" style="text-align: left;">
-                <img src="{{ asset('img/logo.jpg') }}" alt="MateFácil Logo" style="max-height: 70px; margin-bottom: 8px; mix-blend-mode: multiply;">
+                <img src="{{ asset('img/logo.jpg') }}" alt="MateFácil Logo" style="max-height: 70px; margin-bottom: 8px; border-radius: 8px;">
                 <h2 style="display: none;">MATEFÁCIL</h2>
                 <p>Instituto de Matemáticas</p>
                 <p style="font-size: 0.75rem; margin-top: 4px;">R.M. Nro. 248/01 - Gestión Académica Superior</p>

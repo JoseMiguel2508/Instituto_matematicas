@@ -1,22 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-    --bg-primary: #f4f7f6;
-    --bg-secondary: #FFFFFF;
-    --bg-tertiary: #e9ecef;
-    --accent-blue: #045F9D;
-    --accent-blue-hover: #0077C8;
-    --accent-cyan: #1494A0;
-    --accent-green: #31B25A;
-    --accent-green-hover: #3CCB4A;
-    --text-primary: #4A4A4A;
-    --text-secondary: #6B7280;
-    --text-muted: #9CA3AF;
-    --card-bg: #FFFFFF;
-    --card-border: #e2e8f0;
-    --glass-bg: rgba(255, 255, 255, 0.9);
-    --glass-border: rgba(0, 0, 0, 0.05);
-    --glass-border: rgba(0, 0, 0, 0.05);
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    --bg-tertiary: #334155;
+    --accent-blue: #2563eb;
+    --accent-blue-hover: #1d4ed8;
+    --accent-cyan: #06b6d4;
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --card-bg: rgba(30, 41, 59, 0.7);
+    --card-border: rgba(255, 255, 255, 0.08);
+    --glass-bg: rgba(15, 23, 42, 0.65);
+    --glass-border: rgba(255, 255, 255, 0.05);
     --success: #10b981;
     --danger: #ef4444;
     --warning: #f59e0b;

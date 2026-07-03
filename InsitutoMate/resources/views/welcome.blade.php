@@ -34,7 +34,10 @@
         .logo {
             max-width: 280px;
             margin-bottom: 2rem;
-            mix-blend-mode: multiply;
+            border-radius: 16px;
+            background: white;
+            padding: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
         
         h1 {
