@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portal de Administración del Instituto de Matemáticas UPDS.">
-    <title>@yield('title', 'Instituto de Matemáticas UPDS')</title>
+    <meta name="description" content="Portal de Administración de MateFácil - Instituto de Matemáticas.">
+    <title>@yield('title', 'MateFácil - Instituto de Matemáticas')</title>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <!-- Bootstrap Icons -->
@@ -18,9 +18,9 @@
     <div class="dashboard-wrapper">
         <!-- Sidebar Navigation -->
         <aside class="sidebar">
-            <div class="sidebar-brand">
-                <i class="bi bi-infinity" style="font-size: 24px; color: var(--accent-cyan);"></i>
-                <h3>INSTITUTO MAT</h3>
+            <div class="sidebar-brand" style="flex-direction: column; padding: 1rem 0;">
+                <img src="{{ asset('img/logo.jpg') }}" alt="MateFácil Logo" style="max-width: 140px; border-radius: 8px;">
+                <h3 style="display: none;">MATEFÁCIL</h3>
             </div>
 
             <ul class="sidebar-menu">

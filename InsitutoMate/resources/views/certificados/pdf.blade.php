@@ -19,7 +19,7 @@
             width: 950px;
             height: 680px;
             margin: 20px auto;
-            border: 15px solid #1e3a8a; /* Deep blue border */
+            border: 15px solid var(--accent-blue, #0054A6); /* Deep blue border */
             padding: 20px;
             text-align: center;
             position: relative;
@@ -27,22 +27,12 @@
             background: #fff;
         }
         .logo {
-            width: 100px;
-            height: 100px;
-            background: #2563eb;
-            color: #fff;
-            border-radius: 50%;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 40px;
-            font-weight: bold;
+            max-height: 120px;
             margin-bottom: 20px;
-            line-height: 100px;
         }
         .header-title {
             font-size: 38px;
-            color: #1e40af;
+            color: #0054A6;
             text-transform: uppercase;
             letter-spacing: 4px;
             margin: 0 0 10px 0;
@@ -75,7 +65,7 @@
         }
         .course-name {
             font-size: 28px;
-            color: #0284c7;
+            color: #27AE60;
             font-weight: bold;
         }
         .date {
@@ -124,13 +114,12 @@
 <body>
 
 <div class="certificado-container">
-    <div class="watermark">INSTITUTO MATE</div>
+    <div class="watermark">MATEFÁCIL</div>
     
-    <!-- Fallback simple logo if no image is available -->
-    <div class="logo">IM</div>
+    <img src="{{ public_path('img/logo.jpg') }}" alt="MateFácil Logo" class="logo">
 
     <h1 class="header-title">Certificado de Conclusión</h1>
-    <div class="subtitle">Instituto de Matemáticas UPDS</div>
+    <div class="subtitle">MateFácil - Instituto de Matemáticas</div>
 
     <div class="text-presenta">Se otorga el presente certificado a:</div>
 

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portal de Acceso del Instituto de Matemáticas UPDS. Inicia sesión para gestionar personas, matrículas, notas y pagos.">
-    <title>Iniciar Sesión | Instituto de Matemáticas UPDS</title>
+    <meta name="description" content="Portal de Acceso de MateFácil - Instituto de Matemáticas. Inicia sesión para gestionar personas, matrículas, notas y pagos.">
+    <title>Iniciar Sesión | MateFácil - Instituto de Matemáticas</title>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <!-- Bootstrap Icons -->
@@ -16,10 +16,10 @@
 
     <div class="auth-wrapper">
         <div class="auth-card">
-            <div class="auth-logo">
-                <i class="bi bi-infinity"></i>
-                <h2>INSTITUTO MATEMÁTICO</h2>
-                <p>Sistema de Gestión Académica UPDS</p>
+            <div class="auth-logo" style="text-align: center; margin-bottom: 2rem;">
+                <img src="{{ asset('img/logo.jpg') }}" alt="MateFácil Logo" style="max-width: 200px;">
+                <h2 style="display: none;">MATEFÁCIL</h2>
+                <p style="display: none;">Instituto de Matemáticas</p>
             </div>
 
             @if ($errors->any())

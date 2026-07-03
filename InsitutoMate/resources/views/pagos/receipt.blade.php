@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comprobante {{ $pago->numero_comprobante }} | Instituto de Matemáticas UPDS</title>
+    <title>Comprobante {{ $pago->numero_comprobante }} | MateFácil - Instituto de Matemáticas</title>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <!-- Bootstrap Icons -->
@@ -47,14 +47,15 @@
     <!-- Printable Receipt Card -->
     <div class="printable-bill">
         <div class="printable-bill-header">
-            <div class="printable-bill-logo">
-                <h2>INSTITUTO DE MATEMÁTICAS</h2>
-                <p>Universidad Privada Domingo Savio (UPDS)</p>
+            <div class="printable-bill-logo" style="text-align: left;">
+                <img src="{{ asset('img/logo.jpg') }}" alt="MateFácil Logo" style="max-height: 70px; margin-bottom: 8px;">
+                <h2 style="display: none;">MATEFÁCIL</h2>
+                <p>Instituto de Matemáticas</p>
                 <p style="font-size: 0.75rem; margin-top: 4px;">R.M. Nro. 248/01 - Gestión Académica Superior</p>
             </div>
             <div class="printable-bill-meta">
                 <h3>{{ strtoupper($pago->tipo_comprobante) }}</h3>
-                <h2 style="color: #2563eb; font-size: 1.4rem; margin: 5px 0;">{{ $pago->numero_comprobante }}</h2>
+                <h2 style="color: var(--accent-blue); font-size: 1.4rem; margin: 5px 0;">{{ $pago->numero_comprobante }}</h2>
                 <p style="font-size: 0.8rem; color: #64748b;">Fecha: {{ \Carbon\Carbon::parse($pago->fecha_pago)->format('d/m/Y H:i') }}</p>
             </div>
         </div>
@@ -117,7 +118,7 @@
         </div>
 
         <div class="printable-bill-footer">
-            <p>Este comprobante de pago constituye constancia oficial del Instituto de Matemáticas UPDS.</p>
+            <p>Este comprobante de pago constituye constancia oficial de MateFácil - Instituto de Matemáticas.</p>
             <p style="margin-top: 5px;">¡Gracias por su puntualidad en sus compromisos financieros!</p>
         </div>
     </div>
