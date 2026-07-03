@@ -34,6 +34,7 @@
         .logo {
             max-width: 280px;
             margin-bottom: 2rem;
+            mix-blend-mode: multiply;
         }
         
         h1 {

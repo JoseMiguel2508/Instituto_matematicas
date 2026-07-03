@@ -10,9 +10,9 @@ use App\Http\Controllers\PagoController;
 use App\Http\Controllers\CajaController;
 use App\Http\Controllers\CertificadoController;
 
-// Redirect root to dashboard/login
+// Redirect root to welcome page
 Route::get('/', function () {
-    return redirect()->route('dashboard');
+    return view('welcome');
 });
 
 // Authentication Routes

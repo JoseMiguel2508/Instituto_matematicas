@@ -29,6 +29,7 @@
         .logo {
             max-height: 120px;
             margin-bottom: 20px;
+            mix-blend-mode: multiply;
         }
         .header-title {
             font-size: 38px;

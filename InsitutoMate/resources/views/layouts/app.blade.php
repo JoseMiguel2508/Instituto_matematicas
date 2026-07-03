@@ -19,7 +19,7 @@
         <!-- Sidebar Navigation -->
         <aside class="sidebar">
             <div class="sidebar-brand" style="flex-direction: column; padding: 1rem 0;">
-                <img src="{{ asset('img/logo.jpg') }}" alt="MateFácil Logo" style="max-width: 140px; border-radius: 8px;">
+                <img src="{{ asset('img/logo.jpg') }}" alt="MateFácil Logo" style="max-width: 140px; mix-blend-mode: multiply;">
                 <h3 style="display: none;">MATEFÁCIL</h3>
             </div>
 
